@@ -1,0 +1,11 @@
+<div class='containerDiv'>
+	<carousel [itemsPerSlide]="itemsPerSlide" [singleSlideOffset]="singleSlideOffset" [showIndicators]="false" [noWrap]="!noWrap"
+	 [interval]="false" [startFromIndex]="0" (slideRangeChange)="onSlideRangeChange($event)">
+		<slide *ngFor="let slide of slides; let index=index">
+			
+    <div class="carousel-caption">
+      <p>some optional text {{index}}</p>
+    </div>
+  </slide>
+</carousel>
+</div>

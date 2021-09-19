@@ -1,0 +1,4 @@
+body {position: relative}
+.containerDiv{padding:10px 20px;background:#000;}
+::ng-deep .carousel-control-prev{left:-5%;}
+::ng-deep .carousel-control-prev{right:-8%;}
